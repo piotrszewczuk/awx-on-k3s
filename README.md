@@ -60,6 +60,11 @@ Disable Firewalld. This is [recommended by K3s](https://rancher.com/docs/k3s/lat
 ```bash
 sudo systemctl disable firewalld --now
 ```
+or
+```bash
+systemctl disable nm-cloud-setup.service nm-cloud-setup.timer
+reboot
+```
 
 Install required packages to deploy AWX Operator and AWX.
 
