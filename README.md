@@ -121,7 +121,7 @@ Clone this repository and change directory.
 
 ```bash
 cd ~
-git clone https://github.com/kurokobo/awx-on-k3s.git
+git clone https://github.com/piotrszewczuk/awx-on-k3s.git
 cd awx-on-k3s
 ```
 
